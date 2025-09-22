@@ -5,5 +5,11 @@
   "templateSha": "8edc212cf392aa985d35e99ae22756762607f974",
   "DeliverToAppSource": {
     "branches": ["NonExistingBranch"]
+  },
+  "IncrementalBuilds": {
+    "mode": "modifiedApps",
+    "onPush": true,
+    "onPull_Request": true,
+    "retentionDays": 30
   }
 }
